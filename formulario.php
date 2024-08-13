@@ -2,7 +2,7 @@
 
     if(isset($_POST['submit']))
     {
-         print_r('Nome: ' . $_POST['nome']);
+  /*       print_r('Nome: ' . $_POST['nome']);
          print_r('<br>');
          print_r('Email: ' . $_POST['email']);
          print_r('<br>');
@@ -18,7 +18,7 @@
          print_r('<br>');
         print_r('Endereço: ' . $_POST['endereco']);
 
-/*        include_once('config.php');
+*/        include_once('config.php');
 
         $nome = $_POST['nome'];
         $email = $_POST['email'];
@@ -34,7 +34,7 @@
         VALUES ('$nome','$senha','$email','$telefone','$sexo','$data_nasc','$cidade','$estado','$endereco')");
 
 
-      header('Location: login.php'); */
+      header('Location: login.php'); 
     }
 
 ?>
